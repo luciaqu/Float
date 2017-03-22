@@ -16,13 +16,14 @@
 }
 
 .contenedor{
-	width:66%;
+	width:50%;
    	background:blue;
-    display:inline-block;
+    display:inline-flex;
 	font-family:sans-serif;
-	float:right;
-	padding-left:20%;
-	align-content:center;
+	float:left;
+	margin-left:10%;
+	align-content:left;
+	align-items: flex-end;
 }
 
 .producto{
@@ -32,12 +33,13 @@
 	width:250px;
 	height:325px;
     background:white;
-    
-
+    margin-left:1em;
 }
 
 #footer {
+	width: 100%;
+	margin-top: 100px
+   	display:inline-flex;
     background:red;
    	font-family:sans-serif;	
-   	
 }
